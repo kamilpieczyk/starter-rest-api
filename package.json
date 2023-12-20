@@ -4,8 +4,8 @@
   "description": "node backend for scs-swoosh app",
   "main": "index.ts",
   "scripts": {
-    "dev": "nodemon src/index.ts",
-    "start": "ts-node src/index.ts"
+    "start": "nodemon src/index.ts",
+    "start-ts": "ts-node src/index.ts"
   },
   "author": "Kamil Pieczyk",
   "license": "ISC",
