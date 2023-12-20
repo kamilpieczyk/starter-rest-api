@@ -10,7 +10,7 @@ const app: Application = express()
 app.use(cors({ origin: '*', optionsSuccessStatus: 200 }))
 const server = createServer(app)
 
-server.listen({ port: process.env.port, host: '0.0.0.0' }, () => {
+server.listen({ port: process.env.port, host: process.env.host }, () => {
   console.log(`Server running on port ${process.env.port}`)
 })
 
